@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TetrisGame</title>
+
+    <!-- The reason for using styles here is because you are able to
+     edit the color and everything like that in a simple manner-->
+    <style>
+        body {
+            background: #FFBD33;
+            color: #fff;
+            font-family: sans-serif;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        canvas
+        {
+            border: solid .2em #C70039;
+            height: 90vh;
+        }
+    </style>
+    <!-- you are able to see the differences if you dont have these here -->
+</head>
+
+    <body>
+    <div id="score"></div>
+
+    <canvas id="tetris" width="240" height="400" />
+
+    <script src="tetris.js"></script>
+    </body>
+</html>
